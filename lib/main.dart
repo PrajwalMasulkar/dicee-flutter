@@ -35,6 +35,7 @@ class _DicePageState extends State<DicePage> {
               onPressed: (){
                 setState(() {
                   leftDiceNumber = 3;
+                  print('diceNumber = $leftDiceNumber');
                 });
 
               },
