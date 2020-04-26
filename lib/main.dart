@@ -33,8 +33,10 @@ class _DicePageState extends State<DicePage> {
             flex: 1,
             child: FlatButton(
               onPressed: (){
+                setState(() {
+                  leftDiceNumber = 5;
+                });
 
-                leftDiceNumber = 5;
               },
               child: Image.asset('images/dice$leftDiceNumber.png'),
 
