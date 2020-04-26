@@ -34,7 +34,7 @@ class _DicePageState extends State<DicePage> {
             child: FlatButton(
               onPressed: (){
                 setState(() {
-                  leftDiceNumber = 5;
+                  leftDiceNumber = 3;
                 });
 
               },
@@ -43,9 +43,7 @@ class _DicePageState extends State<DicePage> {
             ),
           ),
           Expanded(
-            flex: 1,
-
-            child: FlatButton(
+                       child: FlatButton(
               onPressed: (){
                 print('Right Button got pressed. ');
               },
