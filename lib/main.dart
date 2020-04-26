@@ -34,7 +34,7 @@ class _DicePageState extends State<DicePage> {
             child: FlatButton(
               onPressed: (){
                 setState(() {
-                  leftDiceNumber = 3;
+                  leftDiceNumber = 6;
                   print('diceNumber = $leftDiceNumber');
                 });
 
